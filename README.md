@@ -1,0 +1,107 @@
+# 🔀 ODatafromFTP
+SAP BTP CPI - ODatafromFTP
+
+## SAP BTP CPI - OData from FTP
+
+Este repositório demonstra como um cenario do dia a dia onde temos que realizar a integração que você tem é um fluxo que extrai dados de produtos de uma fonte OData, transforma esses dados e os envia para um servidor FTP de forma automatizada.
+
+![Capa](imagens/capa-linkedin.png)
+
+## 📋 Índice
+- [Explicação do Cenário de Integração?](#Explicação do Cenário de Integração)
+- [Start Timer](#Timer de Início)
+- [O que faz: Este é o gatilho que inicia todo o processo](#OquefazEsteéogatilhoqueiniciatodooprocessos)
+  - [1. Execução dos iFlows](#1-execução-dos-iflows)
+  - [2. Orquestração de Integrações](#2-orquestração-de-integrações)
+  - [3. Conectividade](#3-conectividade)
+  - [4. Segurança](#4-segurança)
+  - [5. Monitoramento e Logging](#5-monitoramento-e-logging)
+
+🔄 Explicação do Cenário de Integração
+O seu diagrama mostra uma integração clássica de dados do tipo "Extrair, Transformar, Carregar" (ETL). Aqui está o que acontece em cada etapa:
+
+Start Timer 1 (Timer de Início):
+
+O que faz: Este é o gatilho que inicia todo o processo.
+
+Como funciona: Pode ser configurado para executar automaticamente em horários específicos (por exemplo, diariamente às 02:00) ou em intervalos regulares (a cada 2 horas). É ele que "acorda" o fluxo.
+
+Request Reply 1 (Requisição-Resposta 1):
+
+O que faz: Esta etapa se conecta à sua fonte OData.
+
+Como funciona: Ela envia uma requisição HTTP GET ao serviço OData (provavelmente para um endpoint como /Products). O serviço responde com os dados dos produtos no formato XML ou JSON. Esta etapa é responsável por extrair os dados da fonte.
+
+Converter XML to CSV (Conversor XML para CSV):
+
+O que faz: Esta etapa realiza a transformação dos dados.
+
+Como funciona: Ela pega o conteúdo XML recebido da etapa anterior e o converte para o formato CSV, que é mais simples e amplamente usado por sistemas de planilhas e bancos de dados. Aqui, você provavelmente mapeia quais campos do XML (como ProductID, Name, Price) se tornam as colunas do CSV.
+
+Ftp (Operações FTP):
+
+O que faz: Esta etapa é responsável por carregar os dados processados no destino.
+
+Como funciona: Ela leva o arquivo DetalhesProdutos.csv gerado e o envia (upload) para o servidor FTP remoto, na pasta especificada por você. O diagrama mostra múltiplos blocos Ftp e Epi; é comum ter etapas separadas para: conectar-se ao servidor, enviar o arquivo e desconectar.
+
+📊 Exemplo Prático do Fluxo
+
+
+
+
+
+
+
+## 🚀 O que é o SAP Process Integration Runtime?
+
+Ele atua após a modelagem do iFlow, no momento em que a integração entra em execução.
+
+
+### Fluxo simplificado:
+- **O iFlow é modelado no Cloud Integration**
+- **O iFlow é deployado**
+- **O Process Integration Runtime executa o fluxo**
+- **As mensagens são processadas entre sistemas**
+
+## Onde o Process Integration Runtime atua?
+- **Processar mensagens**
+- **Orquestrar fluxos**
+- **Aplicar transformações**
+- **Gerenciar conectividade**
+- **Garantir segurança e monitoramento**
+
+## 🔄 Fluxo de Execução
+
+O Process Integration Runtime atua **após a modelagem do iFlow**, no momento em que a integração entra em execução.
+
+### Fluxo simplificado:
+
+---
+## 🔄 Exemplo prático – Como utilizar para um cenário de Demonstração como confiurar é utilizar. (Não recomendado em Produção)
+
+![Fluxo](imagens/Screenshot_1.png)
+
+![Fluxo](imagens/Screenshot_2.png)
+
+![Fluxo](imagens/Screenshot_3.png)
+
+![Fluxo](imagens/Screenshot_4.png)
+
+![Fluxo](imagens/Screenshot_5.png)
+
+![Fluxo](imagens/Screenshot_6.png)
+
+![Fluxo](imagens/Screenshot_7.png)
+
+![Fluxo](imagens/Screenshot_8.png)
+
+![Fluxo](imagens/Screenshot_9.png)
+
+![Fluxo](imagens/Screenshot_10.png)
+
+![Fluxo](imagens/Screenshot_11.png)
+
+![Fluxo](imagens/Screenshot_12.png)
+
+```
+### 📦 Dessa forma conseguimos pegar o Endponit que o Iflow nos disponibiliza e usar no POSTMAN
