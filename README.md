@@ -7,15 +7,20 @@ Este repositório demonstra como um cenario do dia a dia onde temos que realizar
 
 ![Capa](imagens/capa-linkedin.png)
 
-## 📋 Índice
-- [Explicação do Cenário de Integração?](#ExplicaçãodoCenáriodeIntegração)
-- [Start Timer](#TimerdeInício)
-- [O que faz: Este é o gatilho que inicia todo o processo](#OquefazEsteéogatilhoqueiniciatodooprocessos)
-  - [1. Execução dos iFlows](#1-execução-dos-iflows)
-  - [2. Orquestração de Integrações](#2-orquestração-de-integrações)
-  - [3. Conectividade](#3-conectividade)
-  - [4. Segurança](#4-segurança)
-  - [5. Monitoramento e Logging](#5-monitoramento-e-logging)
+
+📊 Exemplo Prático do Fluxo
+
+![Fluxo](imagens/Screenshot_1.png)
+
+![Fluxo](imagens/Screenshot_2.png)
+
+![Fluxo](imagens/Screenshot_3.png)
+
+![Fluxo](imagens/Screenshot_4.png)
+
+![Fluxo](imagens/Screenshot_5.png)
+
+
 
 🔄 Explicação do Cenário de Integração?
 Neste diagrama mostra uma integração clássica de dados do tipo "Extrair, Transformar, Carregar" (ETL). Aqui está o que acontece em cada etapa:
@@ -36,18 +41,10 @@ Ftp (Operações FTP): O que faz: Esta etapa é responsável por carregar os dad
 
 Como funciona: Ela leva o arquivo DetalhesProdutos.csv gerado e o envia (upload) para o servidor FTP remoto, na pasta especificada por você. O diagrama mostra múltiplos blocos Ftp e Epi; é comum ter etapas separadas para: conectar-se ao servidor, enviar o arquivo e desconectar.
 
-📊 Exemplo Prático do Fluxo
 
 
-![Fluxo](imagens/Screenshot_1.png)
 
-![Fluxo](imagens/Screenshot_2.png)
 
-![Fluxo](imagens/Screenshot_3.png)
-
-![Fluxo](imagens/Screenshot_4.png)
-
-![Fluxo](imagens/Screenshot_5.png)
 
 ![Fluxo](imagens/Screenshot_6.png)
 
