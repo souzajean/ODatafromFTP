@@ -43,6 +43,43 @@ Como funciona: Pode ser configurado para executar automaticamente em horários e
 Esta etapa se conecta à sua fonte OData.Ela envia uma requisição HTTP GET ao serviço OData (provavelmente para um endpoint como /Products). O serviço responde com os dados dos produtos no formato XML. Esta etapa é responsável por extrair os dados da fonte.
 ![Fluxo](imagens/Screenshot_10.png)
 
+### Selecionando o Request Replay
+![Fluxo](imagens/Screenshot_11.png)
+
+### Conectando o Request Replay
+![Fluxo](imagens/Screenshot_12.png)
+
+### Selecionando o OData
+![Fluxo](imagens/Screenshot_13.png)
+
+### Selecionando o ODataV2
+![Fluxo](imagens/Screenshot_14.png)
+
+### ODataV2 utilizado
+https://services.odata.org/V2/
+![Fluxo](imagens/Screenshot_15.png)
+
+### ODataV2 cria um usuário para Leitura e Escrita
+![Fluxo](imagens/Screenshot_16.png)
+
+### Configurando o ODataV2 em Conexão
+![Fluxo](imagens/Screenshot_17.png)
+
+### Configurando o ODataV2 em Processamento
+![Fluxo](imagens/Screenshot_18.png)
+
+### Modelando o ODataV2 em Processamento
+![Fluxo](imagens/Screenshot_19.png)
+
+### Modelando o ODataV2 em Processamento em Operação GET
+![Fluxo](imagens/Screenshot_20.png)
+
+### Modelando o ODataV2 em Processamento em Select Entity **Products**
+![Fluxo](imagens/Screenshot_21.png)
+
+### Marcando para gerar o XML e selecionando todos os campos de Products
+![Fluxo](imagens/Screenshot_22.png)
+
 
 
 Converter XML to CSV (Conversor XML para CSV): O que faz: Esta etapa realiza a transformação dos dados.
