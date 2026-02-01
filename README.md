@@ -88,7 +88,7 @@ https://sftpcloud.io/tools/free-ftp-server
 https://sftpcloud.io/tools/free-ftp-server
 ![Fluxo](imagens/Screenshot_24.png)
 
-### Craindo mais um Receiver
+### Criando mais um Receiver
 ![Fluxo](imagens/Screenshot_25.png)
 
 ### Alterando o nome do Receiver para FTP
