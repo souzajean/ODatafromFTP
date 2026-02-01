@@ -1,14 +1,14 @@
-# 🔀 ODatafromFTP
-SAP BTP CPI - ODatafromFTP
+# 🔀 Integrando OData em CSV from FTP
+SAP BTP CPI - OData from FTP
 
-## SAP BTP CPI - OData from FTP
+## Integrando OData Convertendo de XML em CSV from FTP
 
 Este repositório demonstra como um cenario do dia a dia onde temos que realizar a integração que você tem é um fluxo que extrai dados de produtos de uma fonte OData, transforma esses dados e os envia para um servidor FTP de forma automatizada.
 
 ![Capa](imagens/capa-linkedin.png)
 
 ## 📋 Índice
-- [Explicação do Cenário de Integração?](#Explicação do Cenário de Integração)
+- [Explicação do Cenário de Integração?](#ExplicaçãodoCenáriodeIntegração)
 - [Start Timer](#Timer de Início)
 - [O que faz: Este é o gatilho que inicia todo o processo](#OquefazEsteéogatilhoqueiniciatodooprocessos)
   - [1. Execução dos iFlows](#1-execução-dos-iflows)
