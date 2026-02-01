@@ -80,6 +80,26 @@ https://services.odata.org/V2/
 ### Marcando para gerar o XML e selecionando todos os campos de Products
 ![Fluxo](imagens/Screenshot_22.png)
 
+### Site do FTP Gratuito para nosso testes
+https://sftpcloud.io/tools/free-ftp-server
+![Fluxo](imagens/Screenshot_23.png)
+
+### Dados do FTP Gratuito para nosso testes
+https://sftpcloud.io/tools/free-ftp-server
+![Fluxo](imagens/Screenshot_24.png)
+
+### Craindo mais um Receiver
+![Fluxo](imagens/Screenshot_25.png)
+
+### Alterando o nome do Receiver para FTP
+![Fluxo](imagens/Screenshot_26.png)
+
+### Conectando do **END** no  **Receiver FTP**
+![Fluxo](imagens/Screenshot_27.png)
+
+### Selecionando o FTP 
+![Fluxo](imagens/Screenshot_28.png)
+
 
 
 Converter XML to CSV (Conversor XML para CSV): O que faz: Esta etapa realiza a transformação dos dados.
