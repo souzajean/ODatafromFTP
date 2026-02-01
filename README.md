@@ -145,9 +145,8 @@ No nosso exemplo estamos usando o WinSCP
 ![Fluxo](imagens/Screenshot_41.png)
 
 
+## 📦 Exemplo prático – iFlow para baixar
 
+📦 [Download do iFlow – Package/AlterandoPayloadcomScriptGroovy.zip](Package/AlterandoPayloadcomScriptGroovy.zip)
 
-
-
-```
-### 📦 Dessa forma conseguimos pegar o Endponit que o Iflow nos disponibiliza e usar no POSTMAN
+> O arquivo pode ser importado diretamente no SAP Integration Suite (CPI).
