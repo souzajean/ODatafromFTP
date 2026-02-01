@@ -115,32 +115,39 @@ https://sftpcloud.io/tools/free-ftp-server
 ### Adicionando nossas credencial do FTP
 ![Fluxo](imagens/Screenshot_33.png)
 
-Converter XML to CSV (Conversor XML para CSV): O que faz: Esta etapa realiza a transformação dos dados.
+### Verificando nossas credencial do FTP
+![Fluxo](imagens/Screenshot_34.png)
 
+### Vamos voltar ao nosso Iflow
+E clicar em Transformation - Converter - Converter XML to CSV
+![Fluxo](imagens/Screenshot_35.png)
+
+##Converter XML to CSV (Conversor XML para CSV) Esta etapa realiza a transformação dos dados.
 Como funciona: Ela pega o conteúdo XML recebido da etapa anterior e o converte para o formato CSV, que é mais simples e amplamente usado por sistemas de planilhas e bancos de dados. Aqui, você provavelmente mapeia quais campos do XML (como ProductID, Name, Price) se tornam as colunas do CSV.
+![Fluxo](imagens/Screenshot_36.png)
 
-Ftp (Operações FTP): O que faz: Esta etapa é responsável por carregar os dados processados no destino.
+### Altearando o nome XML to CSP Converter
+![Fluxo](imagens/Screenshot_37.png)
 
-Como funciona: Ela leva o arquivo DetalhesProdutos.csv gerado e o envia (upload) para o servidor FTP remoto, na pasta especificada por você. O diagrama mostra múltiplos blocos Ftp e Epi; é comum ter etapas separadas para: conectar-se ao servidor, enviar o arquivo e desconectar.
+### Salvar e Públicar nosso iFlow
+Esta etapa é responsável por carregar os dados processados no destino.
+Ela leva o arquivo DetalhesProdutos.csv gerado e o envia (upload) para o servidor FTP remoto, na pasta especificada por você.
+![Fluxo](imagens/Screenshot_38.png)
+
+### Acessadno o Client de FTP com nossas credencial do FTP.
+No nosso exemplo estamos usando o WinSCP
+![Fluxo](imagens/Screenshot_39.png)
+
+### Verificando se o arquivo foi adicionado ao FTP
+![Fluxo](imagens/Screenshot_40.png)
+
+### Abrindo nosso arquivo gerado
+![Fluxo](imagens/Screenshot_41.png)
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-![Fluxo](imagens/Screenshot_11.png)
-
-![Fluxo](imagens/Screenshot_12.png)
 
 ```
 ### 📦 Dessa forma conseguimos pegar o Endponit que o Iflow nos disponibiliza e usar no POSTMAN
