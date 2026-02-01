@@ -147,7 +147,6 @@ No nosso exemplo estamos usando o WinSCP
 
 ## 📦 Exemplo prático – iFlow para baixar
 
-📦 [Download do iFlow – Package/ODataIntegrationwithFTP.zip](Package/OData Integration with FTP.zip)
-📦 [Download do iFlow – Package/AlterandoPayloadcomScriptGroovy.zip](Package/AlterandoPayloadcomScriptGroovy.zip)
+📦 [Download do iFlow – Package/ODataIntegrationwithFTP.zip](Package/ODataIntegrationwithFTP.zip)
 
 > O arquivo pode ser importado diretamente no SAP Integration Suite (CPI).
