@@ -4,6 +4,7 @@ SAP BTP CPI - OData from FTP
 ## Integrando OData Convertendo de XML em CSV from FTP
 
 Este repositório demonstra como um cenario do dia a dia onde temos que realizar a integração que você tem é um fluxo que extrai dados de produtos de uma fonte OData, transforma esses dados e os envia para um servidor FTP de forma automatizada.
+Neste diagrama mostra uma integração clássica de dados do tipo "Extrair, Transformar, Carregar" (ETL).
 
 ![Capa](imagens/capa-linkedin.png)
 
@@ -28,13 +29,15 @@ Este repositório demonstra como um cenario do dia a dia onde temos que realizar
 ### Removendo o Start
 ![Fluxo](imagens/Screenshot_6.png)
 
-
-🔄 Explicação do Cenário de Integração?
-Neste diagrama mostra uma integração clássica de dados do tipo "Extrair, Transformar, Carregar" (ETL). Aqui está o que acontece em cada etapa:
-
-Start Timer 1 (Timer de Início): O que faz: Este é o gatilho que inicia todo o processo.
-
+### Este é o gatilho que inicia todo o processo.
 Como funciona: Pode ser configurado para executar automaticamente em horários específicos (por exemplo, diariamente às 02:00) ou em intervalos regulares (a cada 2 horas). É ele que "acorda" o fluxo.
+![Fluxo](imagens/Screenshot_7.png)
+
+### Conectando com o End
+![Fluxo](imagens/Screenshot_8.png)
+
+### Renomeando nosso Receiver para o ODATA 
+![Fluxo](imagens/Screenshot_9.png)
 
 Request Reply 1 (Requisição-Resposta 1): O que faz: Esta etapa se conecta à sua fonte OData.
 
@@ -55,11 +58,11 @@ Como funciona: Ela leva o arquivo DetalhesProdutos.csv gerado e o envia (upload)
 
 
 
-![Fluxo](imagens/Screenshot_7.png)
 
-![Fluxo](imagens/Screenshot_8.png)
 
-![Fluxo](imagens/Screenshot_9.png)
+
+
+
 
 ![Fluxo](imagens/Screenshot_10.png)
 
