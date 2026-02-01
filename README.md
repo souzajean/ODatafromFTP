@@ -39,7 +39,7 @@ Como funciona: Pode ser configurado para executar automaticamente em horários e
 ### Renomeando nosso Receiver para o ODATA 
 ![Fluxo](imagens/Screenshot_9.png)
 
-### Usando o Request Reply 1 (
+### Usando o Request Reply 1 
 Esta etapa se conecta à sua fonte OData.Ela envia uma requisição HTTP GET ao serviço OData (provavelmente para um endpoint como /Products). O serviço responde com os dados dos produtos no formato XML. Esta etapa é responsável por extrair os dados da fonte.
 ![Fluxo](imagens/Screenshot_10.png)
 
