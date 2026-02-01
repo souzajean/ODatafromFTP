@@ -100,7 +100,20 @@ https://sftpcloud.io/tools/free-ftp-server
 ### Selecionando o FTP 
 ![Fluxo](imagens/Screenshot_28.png)
 
+### Configurando o FTP no Target
+![Fluxo](imagens/Screenshot_29.png)
 
+### Salvar nosso iFlow e Ir em Monitor -> Integrations and APIs
+![Fluxo](imagens/Screenshot_30.png)
+
+### Criando nosso Security Material
+![Fluxo](imagens/Screenshot_31.png)
+
+### Criando nosso Security Material em User Credentials
+![Fluxo](imagens/Screenshot_32.png)
+
+### Adicionando nossas credencial do FTP
+![Fluxo](imagens/Screenshot_33.png)
 
 Converter XML to CSV (Conversor XML para CSV): O que faz: Esta etapa realiza a transformação dos dados.
 
