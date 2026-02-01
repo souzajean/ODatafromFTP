@@ -18,29 +18,21 @@ Este repositório demonstra como um cenario do dia a dia onde temos que realizar
   - [5. Monitoramento e Logging](#5-monitoramento-e-logging)
 
 🔄 Explicação do Cenário de Integração?
-O seu diagrama mostra uma integração clássica de dados do tipo "Extrair, Transformar, Carregar" (ETL). Aqui está o que acontece em cada etapa:
+Neste diagrama mostra uma integração clássica de dados do tipo "Extrair, Transformar, Carregar" (ETL). Aqui está o que acontece em cada etapa:
 
-Start Timer 1 (Timer de Início):
-
-O que faz: Este é o gatilho que inicia todo o processo.
+Start Timer 1 (Timer de Início): O que faz: Este é o gatilho que inicia todo o processo.
 
 Como funciona: Pode ser configurado para executar automaticamente em horários específicos (por exemplo, diariamente às 02:00) ou em intervalos regulares (a cada 2 horas). É ele que "acorda" o fluxo.
 
-Request Reply 1 (Requisição-Resposta 1):
+Request Reply 1 (Requisição-Resposta 1): O que faz: Esta etapa se conecta à sua fonte OData.
 
-O que faz: Esta etapa se conecta à sua fonte OData.
+Como funciona: Ela envia uma requisição HTTP GET ao serviço OData (provavelmente para um endpoint como /Products). O serviço responde com os dados dos produtos no formato XML. Esta etapa é responsável por extrair os dados da fonte.
 
-Como funciona: Ela envia uma requisição HTTP GET ao serviço OData (provavelmente para um endpoint como /Products). O serviço responde com os dados dos produtos no formato XML ou JSON. Esta etapa é responsável por extrair os dados da fonte.
-
-Converter XML to CSV (Conversor XML para CSV):
-
-O que faz: Esta etapa realiza a transformação dos dados.
+Converter XML to CSV (Conversor XML para CSV): O que faz: Esta etapa realiza a transformação dos dados.
 
 Como funciona: Ela pega o conteúdo XML recebido da etapa anterior e o converte para o formato CSV, que é mais simples e amplamente usado por sistemas de planilhas e bancos de dados. Aqui, você provavelmente mapeia quais campos do XML (como ProductID, Name, Price) se tornam as colunas do CSV.
 
-Ftp (Operações FTP):
-
-O que faz: Esta etapa é responsável por carregar os dados processados no destino.
+Ftp (Operações FTP): O que faz: Esta etapa é responsável por carregar os dados processados no destino.
 
 Como funciona: Ela leva o arquivo DetalhesProdutos.csv gerado e o envia (upload) para o servidor FTP remoto, na pasta especificada por você. O diagrama mostra múltiplos blocos Ftp e Epi; é comum ter etapas separadas para: conectar-se ao servidor, enviar o arquivo e desconectar.
 
