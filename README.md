@@ -134,7 +134,7 @@ Esta etapa é responsável por carregar os dados processados no destino.
 Ela leva o arquivo DetalhesProdutos.csv gerado e o envia (upload) para o servidor FTP remoto, na pasta especificada por você.
 ![Fluxo](imagens/Screenshot_38.png)
 
-### Acessadno o Client de FTP com nossas credencial do FTP.
+### Acessando o Client de FTP com nossas credencial do FTP.
 No nosso exemplo estamos usando o WinSCP
 ![Fluxo](imagens/Screenshot_39.png)
 
