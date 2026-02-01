@@ -10,16 +10,23 @@ Este repositório demonstra como um cenario do dia a dia onde temos que realizar
 
 📊 Exemplo Prático do Fluxo
 
+### Criando o pacote
 ![Fluxo](imagens/Screenshot_1.png)
 
+### Criando o pacote ODATA Integration with FTP
 ![Fluxo](imagens/Screenshot_2.png)
 
+### Criando o Aterfato do Integration iFlow
 ![Fluxo](imagens/Screenshot_3.png)
 
+### Editando o Integration iFlow
 ![Fluxo](imagens/Screenshot_4.png)
 
+### Removendo o Sender
 ![Fluxo](imagens/Screenshot_5.png)
 
+### Removendo o Start
+![Fluxo](imagens/Screenshot_6.png)
 
 
 🔄 Explicação do Cenário de Integração?
@@ -46,7 +53,7 @@ Como funciona: Ela leva o arquivo DetalhesProdutos.csv gerado e o envia (upload)
 
 
 
-![Fluxo](imagens/Screenshot_6.png)
+
 
 ![Fluxo](imagens/Screenshot_7.png)
 
