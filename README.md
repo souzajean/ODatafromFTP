@@ -9,7 +9,7 @@ Este repositório demonstra como um cenario do dia a dia onde temos que realizar
 
 ## 📋 Índice
 - [Explicação do Cenário de Integração?](#ExplicaçãodoCenáriodeIntegração)
-- [Start Timer](#Timer de Início)
+- [Start Timer](#TimerdeInício)
 - [O que faz: Este é o gatilho que inicia todo o processo](#OquefazEsteéogatilhoqueiniciatodooprocessos)
   - [1. Execução dos iFlows](#1-execução-dos-iflows)
   - [2. Orquestração de Integrações](#2-orquestração-de-integrações)
@@ -17,7 +17,7 @@ Este repositório demonstra como um cenario do dia a dia onde temos que realizar
   - [4. Segurança](#4-segurança)
   - [5. Monitoramento e Logging](#5-monitoramento-e-logging)
 
-🔄 Explicação do Cenário de Integração
+🔄 Explicação do Cenário de Integração?
 O seu diagrama mostra uma integração clássica de dados do tipo "Extrair, Transformar, Carregar" (ETL). Aqui está o que acontece em cada etapa:
 
 Start Timer 1 (Timer de Início):
@@ -46,38 +46,6 @@ Como funciona: Ela leva o arquivo DetalhesProdutos.csv gerado e o envia (upload)
 
 📊 Exemplo Prático do Fluxo
 
-
-
-
-
-
-
-## 🚀 O que é o SAP Process Integration Runtime?
-
-Ele atua após a modelagem do iFlow, no momento em que a integração entra em execução.
-
-
-### Fluxo simplificado:
-- **O iFlow é modelado no Cloud Integration**
-- **O iFlow é deployado**
-- **O Process Integration Runtime executa o fluxo**
-- **As mensagens são processadas entre sistemas**
-
-## Onde o Process Integration Runtime atua?
-- **Processar mensagens**
-- **Orquestrar fluxos**
-- **Aplicar transformações**
-- **Gerenciar conectividade**
-- **Garantir segurança e monitoramento**
-
-## 🔄 Fluxo de Execução
-
-O Process Integration Runtime atua **após a modelagem do iFlow**, no momento em que a integração entra em execução.
-
-### Fluxo simplificado:
-
----
-## 🔄 Exemplo prático – Como utilizar para um cenário de Demonstração como confiurar é utilizar. (Não recomendado em Produção)
 
 ![Fluxo](imagens/Screenshot_1.png)
 
