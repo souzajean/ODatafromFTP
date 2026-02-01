@@ -39,9 +39,11 @@ Como funciona: Pode ser configurado para executar automaticamente em horários e
 ### Renomeando nosso Receiver para o ODATA 
 ![Fluxo](imagens/Screenshot_9.png)
 
-Request Reply 1 (Requisição-Resposta 1): O que faz: Esta etapa se conecta à sua fonte OData.
+### Usando o Request Reply 1 (
+Esta etapa se conecta à sua fonte OData.Ela envia uma requisição HTTP GET ao serviço OData (provavelmente para um endpoint como /Products). O serviço responde com os dados dos produtos no formato XML. Esta etapa é responsável por extrair os dados da fonte.
+![Fluxo](imagens/Screenshot_10.png)
 
-Como funciona: Ela envia uma requisição HTTP GET ao serviço OData (provavelmente para um endpoint como /Products). O serviço responde com os dados dos produtos no formato XML. Esta etapa é responsável por extrair os dados da fonte.
+
 
 Converter XML to CSV (Conversor XML para CSV): O que faz: Esta etapa realiza a transformação dos dados.
 
@@ -64,7 +66,7 @@ Como funciona: Ela leva o arquivo DetalhesProdutos.csv gerado e o envia (upload)
 
 
 
-![Fluxo](imagens/Screenshot_10.png)
+
 
 ![Fluxo](imagens/Screenshot_11.png)
 
