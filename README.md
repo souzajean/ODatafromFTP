@@ -122,7 +122,7 @@ https://sftpcloud.io/tools/free-ftp-server
 E clicar em Transformation - Converter - Converter XML to CSV
 ![Fluxo](imagens/Screenshot_35.png)
 
-##Converter XML to CSV (Conversor XML para CSV) Esta etapa realiza a transformação dos dados.
+## Converter XML to CSV (Conversor XML para CSV) Esta etapa realiza a transformação dos dados.
 Como funciona: Ela pega o conteúdo XML recebido da etapa anterior e o converte para o formato CSV, que é mais simples e amplamente usado por sistemas de planilhas e bancos de dados. Aqui, você provavelmente mapeia quais campos do XML (como ProductID, Name, Price) se tornam as colunas do CSV.
 ![Fluxo](imagens/Screenshot_36.png)
 
